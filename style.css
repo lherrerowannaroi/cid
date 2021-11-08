@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+            background-image: url("img/fondoLargo.png");
+			 fixed;
+  			background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+         }
+
+header {
+	margin-top: 35px;
+	margin-left: 8%;
+	margin-right: 8%;
+	min-width: 450px;
+	overflow: hidden;
+	max-width: 1200px;
+}
+.col-izq-header {
+	float: left;
+	width: 49%;
+	
+}
+.col-der-header {
+	float: left;
+	text-align: right;
+	width: 50%;
+
+}
+
+.destacados {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+}
+
+#logo {
+	width: 100%;
+	max-width: 100%;
+}
+
+main {
+	clear: none;
+clear: left;
+clear: right;
+clear: both;
+clear: inline-start;
+clear: inline-end;
+	
+	background: rgba(255, 255, 250, 0.5);
+	margin: auto;
+	padding: 25px;
+	overflow: hidden;
+	margin-top: 50px;
+	max-width: 800px;
+	width: 80%;
+	align: center;
+	
+	
+}
+
+h1 {
+	text-align: center;
+		font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+
+.ponente {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin: 2px;
+}
+
+.hora {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-top: 50px;
+	font-size: 15px
+}
+
+#ponencia1, #ponencia2, #ponencia3, #ponencia4, #ponencia5 {
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+#boton {
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+}
+
+
+.btn {
+  background-color: #094893;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 45px;
+  width: 170px;
+  opacity: 1;
+	color: #FFFFFF;
+	text-decoration:none;
+		letter-spacing: 1px;
+	text-align: center;
+
+}
+
+
+#footer {
+	margin-top: 75px;
+	width: 100%;
+}
