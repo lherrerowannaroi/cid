@@ -95,7 +95,7 @@ p {
 	width: 90%;
 }
 
-#boton {
+#registro {
 	margin: auto;
 	padding: 50px;
 	text-align: center;
@@ -104,24 +104,6 @@ p {
 }
 
 
-.btn {
-  background-color: #094893;
-  border: 1px solid rgba(54, 54, 54, 0.6);
-  outline: none;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  height: 45px;
-  width: 170px;
-  opacity: 1;
-	color: #FFFFFF;
-	text-decoration:none;
-		letter-spacing: 1px;
-	text-align: center;
-
-}
 
 
 #footer {
