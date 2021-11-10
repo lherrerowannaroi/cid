@@ -1,112 +1,143 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-body {
-            background-image: url("img/fondoLargo.png");
-			 fixed;
-  			background-size: cover;
+header {
+	 background-image: url("img/fondoLargo.png");
+	fixed;
+  	background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-         }
-
-header {
-	margin-top: 35px;
-	margin-left: 8%;
-	margin-right: 8%;
-	min-width: 450px;
-	overflow: hidden;
-	max-width: 1200px;
-}
-.col-izq-header {
-	float: left;
-	width: 49%;
-	
-}
-.col-der-header {
-	float: left;
-	text-align: right;
-	width: 50%;
-
-}
-
-.destacados {
-	font-family: 'Bebas Neue', cursive;
-	font-size: 16px;
+	width: 100vw;
+	box-sizing: border-box;
 }
 
 #logo {
-	width: 100%;
-	max-width: 100%;
-}
-
-main {
-	clear: none;
-clear: left;
-clear: right;
-clear: both;
-clear: inline-start;
-clear: inline-end;
-	
-	background: rgba(255, 255, 250, 0.5);
-	margin: auto;
-	padding: 25px;
-	overflow: hidden;
+	width: 35%;
+	margin-left: 10%;
 	margin-top: 50px;
-	max-width: 800px;
-	width: 80%;
-	align: center;
-	
-	
+	margin-bottom: 40px;
 }
-
-h1 {
-	text-align: center;
+#fall {
+	margin-left: 12%;
 		font-family: 'Bebas Neue', cursive;
-	font-size: 20px;
+	font-size: 35px;
 	letter-spacing: 2px;
+	padding-bottom: 50px;
 }
 
-
-
-.ponente {
-	width: 100%;
-	height: auto;
-}
+body {
+   background-color: #F6F6F6;
+         }
 
 p {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
-	margin: 2px;
+	margin-top: 1px;
 }
 
-.hora {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	margin-top: 50px;
-	font-size: 15px
+b {
+	font-size: 18px;
 }
 
-#ponencia1, #ponencia2, #ponencia3, #ponencia4, #ponencia5 {
-	display: block;
-	margin: auto;
-	width: 90%;
+.nombre-titulo {
+	font-weight: 500;
 }
 
-#registro {
-	margin: auto;
-	padding: 50px;
-	text-align: center;
+h1 {
 	font-family: 'Bebas Neue', cursive;
-	font-size: 16px;
+	font-size: 25px;
+	letter-spacing: 2px;
 }
 
+h2 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
 
+#principio {
+	margin: auto;
+	width: 42%;
+	text-align: center;
+	margin-top: 50px;
+	max-width: 500px;
+}
 
+#partes-horario {
+	width: 90%;
+	margin: auto;
+	max-width: 1200px;
+	marign-top: 100px;
+}
+
+.dos-columnas {
+	display: flex;
+}
+
+.izquierda, .derecha {
+	background-color: rgba(255, 255, 250, 0.5);
+	margin: 5px;
+	padding: 15px;
+	width: 50%;
+	box-sizing: border-box;
+	display: table-cell;
+}
+.especial {
+
+	margin: 5px;
+	padding: 15px;
+	width: 50%;
+	box-sizing: border-box;
+	display: table-cell;
+}
 
 #footer {
 	margin-top: 75px;
 	width: 100%;
+}
+
+#mauro, #jose-fernando, #jose-ramon, #alfonso, #antonio {
+	border-radius: 20px;
+	background-color: aliceblue;
+	height: 100px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+
+.btn {
+	display: block;
+	background-color: #094893;
+	padding: 10px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 50px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 800px) {
+	.dos-columnas {
+	display: block;
+}
+  .izquierda, .derecha, .especial {
+   width: 100%;
+	  display: block;
+
+  }
+	#fall {
+	margin-left: 12%;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-bottom: 50px;
+}
+
+
 }
